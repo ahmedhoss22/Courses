@@ -1,0 +1,101 @@
+body{
+    background-color: #7d7d7d;
+}
+.carousel-caption{
+    background-color: rgba(0, 0, 0, .4);
+}
+.form-inline{
+ margin-left: auto;
+}
+.dropdown-menu{
+opacity: .8;
+}
+.dropdown-menu a{
+    color: #0d6efd;
+   text-shadow: .5px .5px 0px black; 
+}
+.dropdown-menu a:hover{
+    color: #fff;
+    text-shadow: .5px .5px 0px black; 
+
+}
+.accordion-header{
+    font-size: 20px;
+    margin: 0px;
+    background-color: #fff;
+}
+.head{
+    margin: 0;
+    padding: 20px;
+}
+.accordion-button{
+    border: none;
+}
+.accordion-body{
+    background-color: #fff;
+}
+.btn-link{
+    text-decoration: none!important;
+}
+.btnbefo{
+    position: relative;
+}
+.btnbefo::before{
+    position: absolute;
+    bottom: -32px;
+    content: "copied";
+   background-color: rgb(127, 204, 223);
+   color: black;
+   border-radius: 5px;
+   left: 50%;
+   transform: translate(-50%);
+   padding: 0 10px;
+   display: none;
+   transition: .5s;
+}
+.btnbefo:active:before{
+    display: block;
+}
+.btnbefo::after{
+    position: absolute;
+    bottom: -52px;
+    content: "copy to clipboard";
+   background-color: rgb(127, 204, 223);
+   color: black;
+   border-radius: 5px;
+   left: 50%;
+   transform: translate(-50%);
+   padding: 0 10px;
+   display: none;
+   transition: .5s;
+}
+.btnbefo:hover::after{
+    display: block;
+}
+.btnbefo:active::after{
+    display: none;
+}
+.btnbefo span{
+    position: absolute;
+    border-style: solid;
+    border-width: 10px;
+    border-color: transparent transparent rgb(127, 204, 223) transparent;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: -12px;
+    display: none;
+}
+.btnbefo:hover span{
+    display: block;
+}
+.fixedimg1{
+    background-image: url(../images/خلفيات-كمبيوتر-موقع-محيط-_182048401_-__.jpg);
+    height: 250px;
+    background-attachment: fixed;
+}
+.fixedimg2{
+    background-image: url(../images/coding-man.jpg);
+    height: 250px;
+    background-attachment: fixed;
+background-size: cover;}
+
